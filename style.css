@@ -4,22 +4,39 @@ body div{
 }
 header{
     text-align: center;
-    background-color: rgb(45, 45, 202);
+    background-color: rgb(39, 39, 197);
     color:white;
     padding: 10px;
+    margin-bottom: -10px;
+}
+h1{
+    font-size: 40px;
+}
+header p{
+    font-size: 20px;
+    margin-top: -20px;
 }
 nav ul{
     list-style: none;
+    margin-left: -30px;
+    margin-top: 15px;
+}
+nav li{
+    margin: 7px;
 }
 .btn-inicio{
     background-color: rgb(73, 73, 255);
     justify-content: center;
     color:white;
-    padding: 3px 60px 3px 60px;
+    padding: 7px 60px 7px 60px;
     border-color: rgb(73, 73, 255);
     border-radius: 5px;
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 42%;
+    margin-right: 42%; 
+}
+.btn-inicio:hover{
+    background-color: rgb(138, 138, 255);
+
 }
 main img{
     justify-content: center;    
@@ -40,6 +57,7 @@ main img{
 #sobre-mi h2{
     color:rgb(1, 1, 114);
     border-bottom: solid 2px #138DD4;
+    font-size: 35px;
 }
 a {
     text-decoration: none;
@@ -52,6 +70,7 @@ a {
 #aficiones h2{
     color: rgb(245, 10, 49);
     border-bottom: solid 2px rgb(245, 79, 107);
+    font-size: 35px;
 }
 #aficiones div{
     border-color: rgb(255, 0, 43);
@@ -72,6 +91,7 @@ a {
 #enlaces h2{
     color:rgb(0, 83, 0);
     border-bottom: solid 2px rgb(0, 83, 0);
+    font-size: 35px;
 }
 .caja-enlaces{
     border-color:rgb(0, 83, 0);
@@ -85,7 +105,13 @@ a {
 #enlaces a{
     text-decoration: none;
     color:rgb(0, 83, 0)
-
 }
+footer{
+    text-align: center;
+    background-color: rgb(39, 39, 197);
+    color: white;
+    padding: 1px;
+}
+
 
     
